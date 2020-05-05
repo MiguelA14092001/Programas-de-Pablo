@@ -1,0 +1,8 @@
+evaluar = True
+while evaluar:
+nombre = str (input ("Ingrese nombre de la madre de Goku:"))
+if nombre.upper () == "Gine":
+evaluar = False
+print ("Felicidades")
+else:
+print ("Nombre incorrecto\n Intentelo de Nuevo \n\n")
